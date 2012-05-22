@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A1431F9156A20E900E26F86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1431F8156A20E900E26F86 /* UIKit.framework */; };
+		8A1431FB156A20E900E26F86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1431FA156A20E900E26F86 /* Foundation.framework */; };
+		8A1431FD156A20E900E26F86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1431FC156A20E900E26F86 /* CoreGraphics.framework */; };
+		8A143203156A20E900E26F86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A143201156A20E900E26F86 /* InfoPlist.strings */; };
+		8A143205156A20E900E26F86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A143204156A20E900E26F86 /* main.m */; };
+		8A143209156A20E900E26F86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A143208156A20E900E26F86 /* AppDelegate.m */; };
+		8A143221156A22E100E26F86 /* PGToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A143220156A22E000E26F86 /* PGToast.m */; };
+		8A143225156A259200E26F86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A143223156A259200E26F86 /* ViewController.m */; };
+		8A143226156A259200E26F86 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A143224156A259200E26F86 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A1431F4156A20E900E26F86 /* TextPGToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextPGToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1431F8156A20E900E26F86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A1431FA156A20E900E26F86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A1431FC156A20E900E26F86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A143200156A20E900E26F86 /* TextPGToast-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextPGToast-Info.plist"; sourceTree = "<group>"; };
+		8A143202156A20E900E26F86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A143204156A20E900E26F86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A143206156A20E900E26F86 /* TextPGToast-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextPGToast-Prefix.pch"; sourceTree = "<group>"; };
+		8A143207156A20E900E26F86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A143208156A20E900E26F86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A14321F156A22E000E26F86 /* PGToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGToast.h; sourceTree = "<group>"; };
+		8A143220156A22E000E26F86 /* PGToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGToast.m; sourceTree = "<group>"; };
+		8A143222156A259200E26F86 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		8A143223156A259200E26F86 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		8A143224156A259200E26F86 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = ../ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A1431F1156A20E900E26F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1431F9156A20E900E26F86 /* UIKit.framework in Frameworks */,
+				8A1431FB156A20E900E26F86 /* Foundation.framework in Frameworks */,
+				8A1431FD156A20E900E26F86 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A1431E9156A20E900E26F86 = {
+			isa = PBXGroup;
+			children = (
+				8A1431FE156A20E900E26F86 /* TextPGToast */,
+				8A1431F7156A20E900E26F86 /* Frameworks */,
+				8A1431F5156A20E900E26F86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A1431F5156A20E900E26F86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A1431F4156A20E900E26F86 /* TextPGToast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A1431F7156A20E900E26F86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A1431F8156A20E900E26F86 /* UIKit.framework */,
+				8A1431FA156A20E900E26F86 /* Foundation.framework */,
+				8A1431FC156A20E900E26F86 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A1431FE156A20E900E26F86 /* TextPGToast */ = {
+			isa = PBXGroup;
+			children = (
+				8A639311156B27290094F24A /* PGToast */,
+				8A143222156A259200E26F86 /* ViewController.h */,
+				8A143223156A259200E26F86 /* ViewController.m */,
+				8A143224156A259200E26F86 /* ViewController.xib */,
+				8A143207156A20E900E26F86 /* AppDelegate.h */,
+				8A143208156A20E900E26F86 /* AppDelegate.m */,
+				8A1431FF156A20E900E26F86 /* Supporting Files */,
+			);
+			path = TextPGToast;
+			sourceTree = "<group>";
+		};
+		8A1431FF156A20E900E26F86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A143200156A20E900E26F86 /* TextPGToast-Info.plist */,
+				8A143201156A20E900E26F86 /* InfoPlist.strings */,
+				8A143204156A20E900E26F86 /* main.m */,
+				8A143206156A20E900E26F86 /* TextPGToast-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A639311156B27290094F24A /* PGToast */ = {
+			isa = PBXGroup;
+			children = (
+				8A14321F156A22E000E26F86 /* PGToast.h */,
+				8A143220156A22E000E26F86 /* PGToast.m */,
+			);
+			name = PGToast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A1431F3156A20E900E26F86 /* TextPGToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A143215156A20E900E26F86 /* Build configuration list for PBXNativeTarget "TextPGToast" */;
+			buildPhases = (
+				8A1431F0156A20E900E26F86 /* Sources */,
+				8A1431F1156A20E900E26F86 /* Frameworks */,
+				8A1431F2156A20E900E26F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextPGToast;
+			productName = TextPGToast;
+			productReference = 8A1431F4156A20E900E26F86 /* TextPGToast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A1431EB156A20E900E26F86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "ceo softcenters";
+			};
+			buildConfigurationList = 8A1431EE156A20E900E26F86 /* Build configuration list for PBXProject "TextPGToast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A1431E9156A20E900E26F86;
+			productRefGroup = 8A1431F5156A20E900E26F86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A1431F3156A20E900E26F86 /* TextPGToast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A1431F2156A20E900E26F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A143203156A20E900E26F86 /* InfoPlist.strings in Resources */,
+				8A143226156A259200E26F86 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A1431F0156A20E900E26F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A143205156A20E900E26F86 /* main.m in Sources */,
+				8A143209156A20E900E26F86 /* AppDelegate.m in Sources */,
+				8A143221156A22E100E26F86 /* PGToast.m in Sources */,
+				8A143225156A259200E26F86 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A143201156A20E900E26F86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A143202156A20E900E26F86 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A143213156A20E900E26F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A143214156A20E900E26F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A143216156A20E900E26F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextPGToast/TextPGToast-Prefix.pch";
+				INFOPLIST_FILE = "TextPGToast/TextPGToast-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A143217156A20E900E26F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextPGToast/TextPGToast-Prefix.pch";
+				INFOPLIST_FILE = "TextPGToast/TextPGToast-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A1431EE156A20E900E26F86 /* Build configuration list for PBXProject "TextPGToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A143213156A20E900E26F86 /* Debug */,
+				8A143214156A20E900E26F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A143215156A20E900E26F86 /* Build configuration list for PBXNativeTarget "TextPGToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A143216156A20E900E26F86 /* Debug */,
+				8A143217156A20E900E26F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A1431EB156A20E900E26F86 /* Project object */;
+}
